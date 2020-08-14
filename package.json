@@ -1,0 +1,23 @@
+{
+    "name": "geojson-path-finder-junctions",
+    "version": "0.1.0",
+    "description": "Wrapper round Per Liedman's geojson-path-finder, allowing grouping routes from junctions to POIs",
+    "license": "GPL-3.0",
+    "author": "Nick Whitelegg",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nickw1/geojson-path-finder-junctions.git"
+    },
+    "dependencies": {
+        "jsfreemaplib": "^0.3.1",
+        "@turf/bearing": "^6.0.1",
+        "@turf/distance": "^6.0.1",
+        "@turf/explode": "^5.1.0",
+        "tinyqueue": "^2.0.0",
+        "turf-point": "^2.0.1"
+    },
+    "keywords": [
+        "geojson",
+        "routing"
+    ]
+}
